@@ -1,0 +1,8 @@
+[package]
+edition = "2021"
+name = "nanoid"
+version = "0.1.0"
+
+[dependencies]
+getrandom = {version = "0.2.15", features = ["js"]}
+serde = {version = "1.0.203", features = ["derive"]}
